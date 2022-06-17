@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.name {
+  width: 100%;
+  height: 40rem;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.date {
+  font-size: 2rem;
+}
+.quote {
+  position: relative;
+  height: 40rem;
+}
+
+.container {
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.image {
+  width: 50%;
+  background: grey;
+  display: flex;
+  justify-content: center;
+}
+.image img {
+  height: 100%;
+}
+
+.word {
+  background: white;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.word span {
+  background: transparent;
+  color: gray;
+  font-size: 5rem;
+}
+.word p {
+  background: transparent;
+  color: black;
+  padding: 8rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.biography {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.biography div {
+  width: 50rem;
+}
+
+.bio-title {
+  margin: 2rem 0;
+}
+
+.bio-title h1 {
+  font-size: 3rem;
+}
+
+.bio-content p {
+  color: rgb(215, 208, 208);
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
